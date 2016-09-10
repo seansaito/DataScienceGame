@@ -4,6 +4,7 @@
 *.npy
 *.dat
 *.npz
+data.zip
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
