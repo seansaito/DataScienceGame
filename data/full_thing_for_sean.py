@@ -20,14 +20,14 @@ train = train.drop([u'Unnamed: 0', u'CustomerMD5Key', u'FirstDriverDrivingLicens
                                    u'CarParkingTypeId',u'FirstDriverDrivingLicenceType',\
                                    u'CarDrivingEntitlement',  u'CarTransmissionId', u'PolicyHolderResidencyArea'\
                         , u'car_flag_1', u'car_flag_4', u'car_flag_3', u'vendor_log_sales', u'RatedDriverNumber',\
-                       'CarFuelld','AllDriversNbConviction'], axis=1)
+                       u'CarFuelId',u'AllDriversNbConvictions'], axis=1)
 
 
 juiceboy = juiceboy.drop([u'Unnamed: 0', u'CustomerMD5Key', u'FirstDriverDrivingLicenseNumberY', \
                                    u'CarParkingTypeId',u'FirstDriverDrivingLicenceType',\
                                    u'CarDrivingEntitlement',  u'CarTransmissionId', u'PolicyHolderResidencyArea'\
                         , u'car_flag_1', u'car_flag_4', u'car_flag_3', u'vendor_log_sales', u'RatedDriverNumber',\
-                       'CarFuelld','AllDriversNbConviction'], axis=1)
+                       u'CarFuelId',u'AllDriversNbConvictions'], axis=1)
 
 
 # In[ ]:
