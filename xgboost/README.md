@@ -1,4 +1,4 @@
-# **Training the XGBoost model for AXA Dataset**
+# **Training the XGBoost model for AXA Dataset
 
 For the sake of brevity, you should already have the necessary scikit libraries and just need to install XGBoost Libraris
 ```
