@@ -59,7 +59,7 @@ if useTrainCV:
     xgb_param = alg.get_xgb_params()
     xgtrain = xgb.DMatrix(dtrain[predictors].values, label=dtrain[target].values)
     cvresult = xgb.cv(xgb_param, xgtrain, num_boost_round=alg.get_params()['n_estimators'], nfold=cv_folds,
-        metrics='auc', early_stopping_rounds=early_stopping_rounds)
+        metrics=['auc'], early_stopping_rounds=early_stopping_rounds)
     alg.set_params(n_estimators=cvresult.shape[0])
 
     
