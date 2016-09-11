@@ -15,7 +15,7 @@ import joblib
 
 train = pd.read_csv('forty_column_dataset.csv')
 juiceboy = pd.read_csv('juice_test.csv')
-
+target = 'labels'
 
 # In[ ]:
 
