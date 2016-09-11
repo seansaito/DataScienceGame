@@ -5,6 +5,10 @@
 *.dat
 *.npz
 data.zip
+*.pkl
+*.zip
+*.DS_Store
+.DS_Store/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

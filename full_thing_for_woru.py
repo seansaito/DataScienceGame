@@ -33,13 +33,13 @@ xgbl = XGBClassifier(
  seed=27)
 
 supplied_arr = juiceboy
-predictors = [x for x in train_3.columns if x not in [target,'Unnamed: 0', u'CustomerMD5Key']]
-dtrain = train_3
+predictors = [x for x in train.columns if x not in [target,'Unnamed: 0', u'CustomerMD5Key']]
+dtrain = train
 alg = xgbl
 useTrainCV=True
 cv_folds=5
 early_stopping_rounds=50
-predictors = [x for x in train_3.columns if x not in [target,'Unnamed: 0', u'CustomerMD5Key']]
+predictors = [x for x in train.columns if x not in [target,'Unnamed: 0', u'CustomerMD5Key']]
     
 if useTrainCV:
     xgb_param = alg.get_xgb_params()
