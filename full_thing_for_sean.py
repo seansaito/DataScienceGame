@@ -31,6 +31,7 @@ juiceboy = juiceboy.drop([u'Unnamed: 0', u'CustomerMD5Key', u'FirstDriverDriving
 
 
 # In[ ]:
+target = "labels"
 
 xgbl = XGBClassifier(
  learning_rate =0.1,
